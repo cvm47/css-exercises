@@ -23,3 +23,70 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+
+/* flexbox properties are only applied to direct children */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* LEFT */
+
+.left-links{
+  /* border: 2px solid black; */
+  display: flex;
+  margin:10px;
+
+}
+
+.left-links ul{
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  gap: 5px;
+}
+
+.left-links ul li{
+  /* border: 5px solid rgb(0, 0, 0); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* LOGO */
+.logo {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/* RIGHT */
+.right-links {
+  /* border: 2px solid black; */
+  display: flex;
+  margin: 10px;
+}
+
+.right-links ul {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.right-links ul li{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
